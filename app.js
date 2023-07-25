@@ -4,11 +4,13 @@ const mongoose = require('mongoose')
 
 const postRoutes = require('./routes/post-routes')
 const authorRoutes = require('./routes/author-routes')
+const categoryRoutes = require('./routes/category-routes')
 
 const app = express()
 
 app.use(postRoutes)
 app.use(authorRoutes)
+app.use(categoryRoutes)
 
 mongoose
 	.connect(process.env.DB_URL)
