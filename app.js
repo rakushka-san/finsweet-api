@@ -3,10 +3,12 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 const postRoutes = require('./routes/post-routes')
+const authorRoutes = require('./routes/author-routes')
 
 const app = express()
 
 app.use(postRoutes)
+app.use(authorRoutes)
 
 mongoose
 	.connect(process.env.DB_URL)
