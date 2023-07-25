@@ -5,12 +5,14 @@ const mongoose = require('mongoose')
 const postRoutes = require('./routes/post-routes')
 const authorRoutes = require('./routes/author-routes')
 const categoryRoutes = require('./routes/category-routes')
+const testimonialRoutes = require('./routes/testimonial-routes')
 
 const app = express()
 
 app.use(postRoutes)
 app.use(authorRoutes)
 app.use(categoryRoutes)
+app.use(testimonialRoutes)
 
 mongoose
 	.connect(process.env.DB_URL)
