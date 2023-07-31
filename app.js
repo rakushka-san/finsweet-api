@@ -9,6 +9,8 @@ const testimonialRoutes = require('./routes/testimonial-routes')
 
 const app = express()
 
+app.use(express.json())
+
 app.use(postRoutes)
 app.use(authorRoutes)
 app.use(categoryRoutes)
