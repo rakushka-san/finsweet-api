@@ -11,6 +11,18 @@ const testimonialSchema = new Schema({
 		type: mongoose.SchemaTypes.ObjectId,
 		required: true,
 	},
+	authorName: {
+		type: String,
+		required: true,
+	},
+	authorPhoto: {
+		type: String,
+		required: true,
+	},
+	authorRegion: {
+		type: String,
+		required: true,
+	},
 })
 
 const Testimonial = mongoose.model('Testimonial', testimonialSchema)
