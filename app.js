@@ -1,5 +1,6 @@
 require('dotenv').config()
 const express = require('express')
+const cors = require('cors')
 const mongoose = require('mongoose')
 const path = require('path')
 
@@ -9,6 +10,8 @@ const categoryRoutes = require('./routes/category-routes')
 const testimonialRoutes = require('./routes/testimonial-routes')
 
 const app = express()
+
+app.use(cors())
 
 app.use(express.json())
 app.use(express.static(path.join(__dirname, 'public')))
