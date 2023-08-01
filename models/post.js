@@ -15,8 +15,16 @@ const postSchema = new Schema({
 		type: mongoose.SchemaTypes.ObjectId,
 		required: true,
 	},
+	categoryName: {
+		type: String,
+		required: true,
+	},
 	author: {
 		type: mongoose.SchemaTypes.ObjectId,
+		required: true,
+	},
+	authorName: {
+		type: String,
 		required: true,
 	},
 	date: {
