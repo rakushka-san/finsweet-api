@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
+const path = require('path')
 
 const postRoutes = require('./routes/post-routes')
 const authorRoutes = require('./routes/author-routes')
@@ -10,6 +11,7 @@ const testimonialRoutes = require('./routes/testimonial-routes')
 const app = express()
 
 app.use(express.json())
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.use(postRoutes)
 app.use(authorRoutes)
