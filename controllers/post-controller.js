@@ -1,7 +1,19 @@
 const Post = require('./../models/post')
 
 const getPosts = (req, res) => {
-	Post.find()
+	const author = req.query.author
+	const category = req.query.category
+	const filter = {}
+
+	if (author) {
+		filter.author = author
+	}
+
+	if (category) {
+		filter.category = category
+	}
+
+	Post.find(filter)
 		.then(posts => {
 			res.status(200).json(posts)
 		})
