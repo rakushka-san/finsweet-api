@@ -3,17 +3,16 @@ const Post = require('./../models/post')
 const getPosts = (req, res) => {
 	const author = req.query.author
 	const category = req.query.category
+	const limit = req.query.limit
+	const skip = req.query.skip
 	const filter = {}
 
-	if (author) {
-		filter.author = author
-	}
-
-	if (category) {
-		filter.category = category
-	}
+	if (author) filter.author = author
+	if (category) filter.category = category
 
 	Post.find(filter)
+		.limit(limit ? limit : 0)
+		.skip(skip ? skip : 0)
 		.then(posts => {
 			res.status(200).json(posts)
 		})
