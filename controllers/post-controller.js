@@ -64,10 +64,21 @@ const updatePost = (req, res) => {
 		})
 }
 
+const getPostsCount = (req, res) => {
+	Post.countDocuments()
+		.then(count => {
+			res.status(200).json(count)
+		})
+		.catch(err => {
+			res.status(500).json({ err })
+		})
+}
+
 module.exports = {
 	getPosts,
 	getPost,
 	postPost,
 	deletePost,
 	updatePost,
+	getPostsCount,
 }

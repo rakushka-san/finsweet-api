@@ -5,10 +5,12 @@ const {
 	postPost,
 	deletePost,
 	updatePost,
+	getPostsCount,
 } = require('./../controllers/post-controller')
 
 const router = express.Router()
 
+router.get('/posts/count', getPostsCount)
 router.get('/posts', getPosts)
 router.get('/posts/:id', getPost)
 router.post('/posts', postPost)
