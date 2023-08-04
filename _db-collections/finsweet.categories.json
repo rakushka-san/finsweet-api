@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "64bfe4388a7248d2046db450"
+  },
+  "name": "Startup",
+  "description": "Discover the latest innovative ideas and ventures in the world of startups, where entrepreneurs are shaping the future with groundbreaking solutions and disruptive technologies.",
+  "imgSrc": "category-startup.svg"
+},
+{
+  "_id": {
+    "$oid": "64bfe4388a7248d2046db451"
+  },
+  "name": "Economy",
+  "description": "Navigate the complexities of the global economy as we delve into trends, policies, and issues impacting industries, markets, and the overall financial landscape.",
+  "imgSrc": "category-economy.svg"
+},
+{
+  "_id": {
+    "$oid": "64bfe4388a7248d2046db452"
+  },
+  "name": "Business",
+  "description": "Unlock the secrets of successful business strategies, learn from industry leaders, and stay ahead of the competition with expert insights on management, leadership, and growth.",
+  "imgSrc": "category-business.svg"
+},
+{
+  "_id": {
+    "$oid": "64bfe4388a7248d2046db453"
+  },
+  "name": "Technology",
+  "description": "Dive into the ever-evolving world of technology, exploring the latest advancements, trends, and breakthroughs that are reshaping industries and revolutionizing the way we live and work.",
+  "imgSrc": "category-technology.svg"
+}]

@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64bfe35e8a7248d2046db43d"
+  },
+  "text": "This portal is a game-changer for my business! It provides up-to-date market insights and industry trends that help me make informed decisions. The user-friendly interface and diverse range of resources make it my go-to platform for all things business-related.",
+  "author": {
+    "$oid": "64be763ad922248ce69f54be"
+  },
+  "authorName": "Floyd Miles",
+  "authorPhoto": "person1.jpg",
+  "authorRegion": "California, USA"
+},
+{
+  "_id": {
+    "$oid": "64bfe35e8a7248d2046db43e"
+  },
+  "text": "As a startup founder, I highly recommend this portal. It offers a wealth of resources, from funding opportunities to expert advice. The networking capabilities and access to successful entrepreneurs are invaluable in navigating the challenges of building a new business. A must-have for any aspiring startup.",
+  "author": {
+    "$oid": "64be763ad922248ce69f54c0"
+  },
+  "authorName": "Jenny Wilson",
+  "authorPhoto": "person3.jpg",
+  "authorRegion": "Texas, USA"
+},
+{
+  "_id": {
+    "$oid": "64bfe35e8a7248d2046db43f"
+  },
+  "text": "This portal is a treasure trove of cutting-edge technology updates. The articles and webinars cover a wide range of topics, from AI to IoT, and keep me abreast of the latest innovations. The user community is also fantastic for sharing insights and collaborating on tech projects. An essential resource for anyone in the tech industry.",
+  "author": {
+    "$oid": "64be763ad922248ce69f54c3"
+  },
+  "authorName": "Eleanor Pena",
+  "authorPhoto": "person6.jpg",
+  "authorRegion": "Colorado, USA"
+},
+{
+  "_id": {
+    "$oid": "64bfe35e8a7248d2046db440"
+  },
+  "text": "This portal is an incredible resource for staying informed on economic trends and developments. The in-depth analysis and comprehensive reports provide valuable insights into global markets. Whether you're an economist, investor, or business owner, this platform is a must-use for understanding the dynamics of the economy.",
+  "author": {
+    "$oid": "64be763ad922248ce69f54c4"
+  },
+  "authorName": "Robert Fox",
+  "authorPhoto": "person7.jpg",
+  "authorRegion": "Washington, USA"
+}]

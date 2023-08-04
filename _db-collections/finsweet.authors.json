@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54be"
+  },
+  "name": "Floyd Miles",
+  "photoSrc": "person1.jpg",
+  "position": "Content Writer",
+  "company": " Business Solutions Inc.",
+  "blogDescription": "Providing the latest insights on corporate strategies, market trends, and industry leaders in the world of business.",
+  "region": "California, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54bf"
+  },
+  "name": "Dianne Russell",
+  "photoSrc": "person2.jpg",
+  "position": "Product Manager",
+  "company": "Startup Innovators Ltd.",
+  "blogDescription": "A comprehensive guide to building and growing a successful startup, featuring practical tips and inspiring success stories from entrepreneurs around the globe.",
+  "region": "Quahog, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c0"
+  },
+  "name": "Jenny Wilson",
+  "photoSrc": "person3.jpg",
+  "position": "Data Scientist",
+  "company": "TechMaster Solutions",
+  "blogDescription": " Exploring the latest innovations, gadgets, and breakthroughs in the ever-evolving world of technology, with in-depth reviews and expert analysis.",
+  "region": "Texas, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c1"
+  },
+  "name": "Leslie Alexander",
+  "photoSrc": "person4.jpg",
+  "position": "Economist",
+  "company": "Economy Dynamics Corp.",
+  "blogDescription": "Demystifying complex economic concepts and offering a fresh perspective on global markets, trade policies, and financial trends.",
+  "region": "Illinois, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c2"
+  },
+  "name": "Guy Hawkins",
+  "photoSrc": "person5.jpg",
+  "position": "Marketing Manager",
+  "company": "InnovateTech Industries",
+  "blogDescription": "A go-to resource for aspiring entrepreneurs, offering guidance on everything from finding funding and developing business plans to managing teams and navigating legal challenges.",
+  "region": "Massachusetts, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c3"
+  },
+  "name": "Eleanor Pena",
+  "photoSrc": "person6.jpg",
+  "position": "Software Engineer",
+  "company": "VentureLaunch Solutions",
+  "blogDescription": "Discussing the intersection of technology and society, addressing ethical implications, emerging technologies, and their impact on our daily lives.",
+  "region": "Colorado, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c4"
+  },
+  "name": "Robert Fox",
+  "photoSrc": "person7.jpg",
+  "position": "Stock Broker",
+  "company": "TechGenius Startups",
+  "blogDescription": "Providing practical advice on personal finance, investment strategies, and wealth-building techniques for individuals of all income levels.",
+  "region": "Washington, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+},
+{
+  "_id": {
+    "$oid": "64be763ad922248ce69f54c5"
+  },
+  "name": "Jacob Jones",
+  "photoSrc": "person8.jpg",
+  "position": "Founder",
+  "company": "EconoTech Enterprises",
+  "blogDescription": "Covering a wide range of business-related topics, including leadership, marketing strategies, employee engagement, and the future of work.",
+  "region": "Florida, USA",
+  "socials": {
+    "facebook": "facebook.com",
+    "twitter": "twitter.com",
+    "instagram": "instagram.com",
+    "linkedIn": "linkedin.com"
+  }
+}]

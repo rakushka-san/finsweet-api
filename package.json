@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node app.js",
-		"dev": "nodemon app.js"
+		"dev": "nodemon app.js",
+		"fill-db": "node fill-db.js"
 	},
 	"author": "",
 	"license": "ISC",
