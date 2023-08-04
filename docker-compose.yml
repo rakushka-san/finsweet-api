@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  mongo:
+    container_name: finsweet-db
+    image: mongo:latest
+    restart: always
+    env_file: ./.env
+    environment:
+      MONGO_INITDB_DATABASE: $MONGODB_DATABASE
+    ports:
+      - $MONGODB_LOCAL_PORT:$MONGODB_PORT
+    volumes:
+      - db:/data/db
+
+  app:
+    container_name: finsweet-api
+    depends_on:
+      - mongo
+    build: .
+    restart: always
+    env_file: ./.env
+    ports:
+      - $LOCAL_PORT:$PORT
+
+volumes:
+  db:

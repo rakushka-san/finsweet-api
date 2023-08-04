@@ -25,10 +25,16 @@ app.use(testimonialRoutes)
 app.use(contactRoutes)
 app.use(subscriptionRoutes)
 
+const { DB_HOST, DB_PORT, DB_NAME } = process.env
+
+const MONGO_URL = `mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}`
+
 mongoose
-	.connect(process.env.DB_URL)
+	.connect(MONGO_URL)
 	.then(() => console.log('Connected to MongoDB'))
-	.catch(err => console.log(`Error connecting to DB: ${err}`))
+	.catch(err =>
+		console.log(`Error connecting to DB by URL ${MONGO_URL}: ${err}`)
+	)
 
 app.listen(process.env.PORT, err => {
 	err
